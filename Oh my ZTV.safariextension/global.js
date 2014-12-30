@@ -21,7 +21,7 @@ function		loop_checker() {
 
 	is_zera_onair();
 	// check chaque 1/4 d'heure
-	setInterval(is_zera_onair, 15000);
+	setInterval(is_zera_onair, 120000);
 }
 
 function		is_zera_onair() {
