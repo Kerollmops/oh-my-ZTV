@@ -40,5 +40,6 @@ function		is_zera_onair() {
 	});
 
 	if (ret === true && button) { button.badge = 1; }
+	else if (ret !== true && button) { button.badge = 0; }
 	return ret;
 }
