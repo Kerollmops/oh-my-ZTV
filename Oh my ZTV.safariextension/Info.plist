@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Kerosene2000</string>
+	<key>Builder Version</key>
+	<string>10600.2.5</string>
+	<key>CFBundleDisplayName</key>
+	<string>Oh my ZTV</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.kerosene.ohmyztv</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>open-ohmyztv</string>
+				<key>Identifier</key>
+				<string>ohmyztvbutton</string>
+				<key>Image</key>
+				<string>zrt_icon.png</string>
+				<key>Label</key>
+				<string>Oh my ZTV</string>
+				<key>Palette Label</key>
+				<string>Oh my ZTV</string>
+				<key>Tool Tip</key>
+				<string>Check if Zera is on air on its personal stream</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Check if the ZeratoR personal stream is on air.</string>
+	<key>DeveloperIdentifier</key>
+	<string>22AN54RDMR</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict/>
+	</dict>
+	<key>Website</key>
+	<string>http://clementrenault.com</string>
+</dict>
+</plist>
